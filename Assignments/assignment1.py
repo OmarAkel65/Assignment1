@@ -4,3 +4,9 @@ for x in range(0,5):
     print()
 # add a print massage
 print ("I love python")
+
+
+countries = ['Thailand', 'Vietnam', 'Malaysia', 'UAE']
+for country in countries:
+    
+    print(f" {country} + {len(country)}" , "letters")
